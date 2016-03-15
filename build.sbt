@@ -8,4 +8,4 @@ jfxSettings
 
 JFX.artifactBaseNameValue <<= name
 
-JFX.mainClass := Some("com.unicorncoding.aidlore.Demo")
+JFX.mainClass := Some("com.unicorncoding.aidlore.app.AidLoreApp")

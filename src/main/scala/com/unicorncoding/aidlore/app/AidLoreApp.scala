@@ -7,6 +7,10 @@ import javafx.scene.control.{Button, Label}
 import javafx.scene.image.{Image, ImageView}
 import javafx.scene.layout.VBox
 import javafx.stage.Stage
+import java.util
+
+import com.unicorncoding.aidlore.app.about.AboutWindowController
+import com.unicorncoding.aidlore.app.preferences.PreferencesWindowController
 
 sealed trait ApplicationControlAction
 
@@ -32,10 +36,9 @@ object AidLoreApp {
 
 class AidLoreApp extends Application {
 
-//  val windowList: util.List[DocumentWindowController] = new util.ArrayList[DocumentWindowController]
-//  //  var windowList: List[DocumentWindowController] = util.ArrayList[DocumentWindowController]
-//  val aboutWindowController: AboutWindowController = new AboutWindowController
-//  val preferencesWindowController: PreferencesWindowController = new PreferencesWindowController
+  private val windowList: util.List[DocumentWindowController] = new util.ArrayList[DocumentWindowController]
+  val aboutWindowController: AboutWindowController = new AboutWindowController
+  val preferencesWindowController: PreferencesWindowController = new PreferencesWindowController
 
   /**
     *

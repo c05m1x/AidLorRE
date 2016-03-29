@@ -1,5 +1,7 @@
 # AidLore
 
+[![Build Status](https://travis-ci.org/c05m1x/aidlore.svg?branch=master)](https://travis-ci.org/c05m1x/aidlore)
+
 ### aid
 /eɪd/
 noun

@@ -24,7 +24,7 @@ AidLore is an Android localization resource editor written in JavaFX and Scala. 
 Prerequisites
 -------------
 * sbt 0.13.11 or above
-* JDK 1.7 or above
+* JDK 1.8 or above
 
 Build
 -----

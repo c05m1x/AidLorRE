@@ -10,19 +10,6 @@ import javafx.stage.Stage
 import java.util
 
 import com.unicorncoding.aidlore.app.about.AboutWindowController
-import com.unicorncoding.aidlore.app.preferences.PreferencesWindowController
-
-sealed trait ApplicationControlAction
-
-case object About extends ApplicationControlAction
-
-case object NewFile extends ApplicationControlAction
-
-case object OpenFile extends ApplicationControlAction
-
-case object ShowPreferences extends ApplicationControlAction
-
-case object Exit extends ApplicationControlAction
 
 /**
   * Normally ignored in correctly deployed JavaFX application.
@@ -35,10 +22,6 @@ object AidLoreApp {
 }
 
 class AidLoreApp extends Application {
-
-  private val windowList: util.List[DocumentWindowController] = new util.ArrayList[DocumentWindowController]
-  val aboutWindowController: AboutWindowController = new AboutWindowController
-  val preferencesWindowController: PreferencesWindowController = new PreferencesWindowController
 
   /**
     *

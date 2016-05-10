@@ -23,11 +23,6 @@ object AidLoreApp {
 
 class AidLoreApp extends Application {
 
-  /**
-    *
-    * demo purpose only!
-    *
-    */
   def start(stage: Stage) {
 
     val root = new VBox

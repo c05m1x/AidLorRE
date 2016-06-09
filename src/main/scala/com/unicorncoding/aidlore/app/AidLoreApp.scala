@@ -7,9 +7,7 @@ import javafx.scene.control.{Button, Label}
 import javafx.scene.image.{Image, ImageView}
 import javafx.scene.layout.VBox
 import javafx.stage.Stage
-import java.util
 
-import com.unicorncoding.aidlore.app.about.AboutWindowController
 
 /**
   * Normally ignored in correctly deployed JavaFX application.
@@ -26,7 +24,6 @@ class AidLoreApp extends Application {
   def start(stage: Stage) {
 
     val root = new VBox
-
     val hello = new Label("JavaFX w/ Scala! 8)")
     val button = new Button("Click me")
     button.setGraphic(new ImageView(new Image(getClass.getResourceAsStream("arrow.png"))))
